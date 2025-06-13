@@ -1,0 +1,99 @@
+.menucontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: rgba(0, 0, 0, 0.174);
+    margin: 0% 1% 0% 1%;
+    height :11vh;
+}
+
+.menutoolcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.3%;;
+}
+
+.menuleft{
+    display: flex;
+    flex-direction: row;
+    width : 17%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commonbutton{
+    border: none;
+    background-color: transparent;
+    border-radius: 20%;
+}
+.name{
+    font-size: 120%;
+    font-weight: 1000;
+}
+
+.homeicon{
+   font-size: 150%;
+}   
+
+.sharebutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 27%;
+    background-color: rgb(32, 132, 203);
+    color: rgb(4, 9, 76);
+    border-radius: 7%;
+    border-width: 0;
+    padding: 2%;
+    font-weight: 200;
+}
+
+.sharebutton:hover{
+    box-shadow: 3px 4px 3px rgb(180, 177, 177);
+}
+.commonbutton:hover{
+    box-shadow: 3px 4px 3px rgb(180, 177, 177);
+}
+
+
+.menuright{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 2%;
+}
+.profile{
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 15%;
+}
+.notebookicon:hover{
+    box-shadow: 3px 4px 3px rgb(180, 177, 177);
+}
+.notebookicon{
+    font-size: 120%;
+    background-color: transparent;
+    border-radius: 25%;
+}   
+
+.noteheader{
+    margin-left: 1.4%;
+    z-index: 100;
+}
+.addbutton{
+    background-color: transparent;
+    border-radius: 50%;
+    border:none;
+}
+
+.model1{
+    position: fixed;
+    right : 30%;
+    padding : 400px;
+    background-color: brown;
+    z-index: 300;
+}
