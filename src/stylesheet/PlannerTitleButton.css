@@ -1,11 +1,11 @@
-.notebutton{
+.plannerButton{
     border-color: transparent;
-    font-size: small;
-    padding: 0.33%;
+    font-size: 1vw;
+    padding: 0.2vw;
     background-color: rgba(46, 40, 170, 0.784);
     border: 0;
     color : white;
-    margin-right: 2.1%;
+    margin-right: 2vw;
     position: relative;
 }
 
@@ -16,9 +16,8 @@
     border: none;
     position: absolute;
     top: 42%;
-    right: -16px;
-    font-size: 120%;
-    font-weight: 300;
+    right: -1vw;
+    font-size: 1vw;
 
 }
 
@@ -60,4 +59,5 @@
   justify-items: center;
   border: 0px none;
   outline: none;
+  font-size: 1vw;
 }

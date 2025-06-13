@@ -18,7 +18,6 @@ export default function TaskHeader(props){
 
     return(
         <div className = "taskheader" style={{backgroundColor: titleData.color}}>
-            <input type="text" placeholder="Title" value = {titleData.name} onChange={handleInputChange} className="tasktitle"/>
             <div className ="tasktool">
                 <button className ="toolbutton">
                     <i className ="bi bi-brush tool"></i>
@@ -30,6 +29,7 @@ export default function TaskHeader(props){
                     <i className="bi bi-trash tool"></i>
                 </button>
             </div>
+            <input type="text" placeholder="Title" value = {titleData.name} onChange={handleInputChange} className="tasktitle"/>
         </div>
     );
 }

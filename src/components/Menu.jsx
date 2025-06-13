@@ -28,8 +28,7 @@ export default function Menu(props){
                     </button>
                     <button className = "sharebutton">
                         <i className="bi bi-share"></i> Share
-                    </button>
-                    
+                    </button>                    
                 </div>
                 <div className ="menuright">
                     <i className ="bi bi-journal-check notebookicon"></i>

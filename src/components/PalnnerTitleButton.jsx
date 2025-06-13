@@ -32,7 +32,7 @@ export default function PlannerTitleButton(props){
 
     return(
         <>
-        <button className ="notebutton" onClick={HandleButtonClick} style = {{boxShadow : props.data1.IsSelected ? "3px 4px 3px rgb(180, 177, 177)" : "" , opacity : props.data1.IsSelected ? 1 : 0.7}}
+        <button className ="plannerButton" onClick={HandleButtonClick} style = {{boxShadow : props.data1.IsSelected ? "3px 4px 3px rgb(180, 177, 177)" : "" , opacity : props.data1.IsSelected ? 1 : 0.7}}
                 onMouseEnter={() => setIsEditIconVisible(true)} onMouseLeave={() => setIsEditIconVisible(false)}>
             
             <input type="text" value={title} placeholder="My Planner" className="plannerTitle" maxLength="15" size={title.length <= 4 ? 6 : title.length - 2} 

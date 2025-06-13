@@ -30,12 +30,12 @@ export default function Task(props){
         <div className="task1" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => {setIsHovered(false); setIsMenuSelected(false);}}>
           { isHovered && <i className="bi bi-three-dots-vertical taskmenu" onClick={HandleMenuClick}>
           </i> }
-           <input type="checkbox" checked={taskData.isChecked} onChange={HandleCheckBox} style={{marginLeft : isHovered ? 0 : 16}}/>
+           <input className="checkbox1" type="checkbox" checked={taskData.isChecked} onChange={HandleCheckBox} style={{marginLeft : isHovered ? 0 : "1vw"}}/>
            <ContentEditable className="input-box" html={taskData.text} placeholder="Add a task..." onChange={Handletext}/>
            {isMenuSelected && <div className="menuOptions">
                 <div className="menuicon" onClick={HandleTaskDelete}>
                   <i className="bi bi-trash"></i>
-                   <div className="menuName">Delete</div>
+                  <div className="menuName">Delete</div>
                 </div>
                 <div className="menuicon">
                     <i className="bi bi-lock"></i>
